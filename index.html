@@ -27,52 +27,9 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <!-- <script src="./static/js/index.js"></script> -->
-</head>
+  </head>
 
 <body>
-
-  <!-- <nav class="navbar"
-
-  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <a class="navbar-item" href="https://keunhong.com">
-          <span class="icon">
-            <i class="fas fa-home"></i>
-          </span>
-        </a>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More Research
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://hypernerf.github.io">
-              HyperNeRF
-            </a>
-            <a class="navbar-item" href="https://nerfies.github.io">
-              Nerfies
-            </a>
-            <a class="navbar-item" href="https://latentfusion.github.io">
-              LatentFusion
-            </a>
-            <a class="navbar-item" href="https://photoshape.github.io">
-              PhotoShape
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </nav> -->
-
 
   <section class="hero">
     <div class="hero-body">
@@ -97,7 +54,6 @@ class="navbar-burger" aria-label="menu" aria-expanded="false">
               <span class="author-block">Hong Kong University of Science and Technology</span>
             </div <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
               <span class="link-block">
                 <a href="https://jchengai.github.io/pluto" class="external-link button is-normal is-rounded is-gray">
                   <span class="icon">
@@ -114,7 +70,6 @@ class="navbar-burger" aria-label="menu" aria-expanded="false">
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/jchengai/pluto" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -133,7 +88,6 @@ class="navbar-burger" aria-label="menu" aria-expanded="false">
 
   <section class="section">
     <div class="container is-max-desktop">
-      <!-- Abstract. -->
       <div class="columns is-centered has-text-centered" style="border-radius: 10px; padding: 10px;">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Abstract</h2>
@@ -260,110 +214,6 @@ class="navbar-burger" aria-label="menu" aria-expanded="false">
   </section>
 
   <section class="section" style="margin-top: 0; padding-top: 50px;">
-    <h2 class="title is-4" style="text-align: center;">Model Ablation Results</h2>
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-full-width" style="text-align: center;">
-          <p>
-            <span style="color: rgb(207, 12, 12);">Playspeed <span>&times</span> 2</span>
-          </p><br>
-        </div>
-      </div>
-    </div>
-
-    <div class="container is-max-desktop">
-      <div class="demo-block">
-        <div class="text-grid-3">
-          <div class="grid-content">
-            \(\mathcal{M}_1\) (SDE)
-          </div>
-          <div class="grid-content">
-            \(\mathcal{M}_3\) (SDE + Aux)
-          </div>
-          <div class="grid-content">
-            \(\mathcal{M}_4\) (SDE + Aux + CIL)
-          </div>
-        </div>
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation0/2021.09.23.02.17.18_veh-49_01556_01818/m1.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation0/2021.09.23.02.17.18_veh-49_01556_01818/m3.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation0/2021.09.23.02.17.18_veh-49_01556_01818/m4.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation1/2021.10.05.06.31.40_veh-52_01598_02013_f7f0989080295b75/m1.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation1/2021.10.05.06.31.40_veh-52_01598_02013_f7f0989080295b75/m3.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation1/2021.10.05.06.31.40_veh-52_01598_02013_f7f0989080295b75/m4.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation2/2021.06.08.12.00.19_veh-35_00378_00748/m1.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation2/2021.06.08.12.00.19_veh-35_00378_00748/m3.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation2/2021.06.08.12.00.19_veh-35_00378_00748/m4.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation3/2021.06.28.15.07.02_veh-35_00260_05954_ee479ca0620c5077/m1.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation3/2021.06.28.15.07.02_veh-35_00260_05954_ee479ca0620c5077/m3.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation3/2021.06.28.15.07.02_veh-35_00260_05954_ee479ca0620c5077/m4.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation4/2021.06.28.15.10.57_veh-16_01001_02195_96074214b9645952/m1.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation4/2021.06.28.15.10.57_veh-16_01001_02195_96074214b9645952/m3.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/model_ablation4/2021.06.28.15.10.57_veh-16_01001_02195_96074214b9645952/m4.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <section class="section" style="margin-top: 0; padding-top: 50px;">
     <h2 class="title is-4" style="text-align: center;">Gallery</h2>
     <div class="container is-max-desktop">
       <div class="columns is-centered">
@@ -389,38 +239,6 @@ class="navbar-burger" aria-label="menu" aria-expanded="false">
           </video>
           <video class="video-border" autoplay controls muted loop playsinline>
             <source src="./static/videos/follow/2021.06.08.12.00.19_veh-35_01722_02119_0c6054e1e1bc5151.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <h2><b>Obstacle Avoidance</b></h2>
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/near_obs/2021.09.23.01.37.15_veh-53_00864_01648_fe54f6e97f6459d0.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/near_obs/2021.08.24.18.30.46_veh-08_00035_01650_bcc16856448a578f.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/near_obs/2021.07.24.16.07.03_veh-35_03033_05899_b4072c87fa305578.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <h2><b>U-Turn</b></h2>
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/u_turn/2021.09.14.18.43.41_veh-45_00196_00578_d2e123b11b73577e.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/u_turn/2021.09.23.01.44.00_veh-49_00031_00661_55530db3810c5c9c.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/u_turn/2021.08.24.14.35.46_veh-45_00715_01404_ba12947216d95a60.mp4"
               type="video/mp4">
           </video>
         </div>
@@ -489,61 +307,13 @@ class="navbar-burger" aria-label="menu" aria-expanded="false">
           </video>
         </div>
 
-        <h2><b>Departing</b></h2>
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/departing/2021.08.24.19.26.32_veh-08_00249_00710_8df03580291150a3.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/departing/2021.08.24.20.03.01_veh-45_01091_01622_d9f52fb9df8b5172.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/departing/2021.09.14.19.46.05_veh-45_01029_01458_2b1dbb7eeed152e3.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
-        <h2><b>Near traffic cones</b></h2>
-        <div class="video-grid-3">
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/near_cones/2021.06.08.12.00.19_veh-35_00378_00748_2e5d157d384c5481.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/near_cones/2021.07.24.00.12.51_veh-37_02616_03464_1d9c6cd17e2458c2.mp4"
-              type="video/mp4">
-          </video>
-          <video class="video-border" autoplay controls muted loop playsinline>
-            <source src="./static/videos/near_cones/2021.09.23.06.45.26_veh-50_00037_00232_145fe656584b5d06.mp4"
-              type="video/mp4">
-          </video>
-        </div>
-
       </div>
     </div>
   </section>
 
 
-  <!-- <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code></code></pre>
-    </div>
-  </section> -->
-
-
   <footer class="footer">
     <div class="container">
-      <!-- <div class="content has-text-centered">
-        <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
-          <i class="fas fa-file-pdf"></i>
-        </a>
-        <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-          <i class="fab fa-github"></i>
-        </a>
-      </div> -->
       <div class="columns is-centered">
         <div class="content">
           <p>
